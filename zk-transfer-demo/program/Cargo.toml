@@ -1,0 +1,12 @@
+[package]
+name = "program"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sp1-zkvm = "4.0"
+ark-bn254 = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+shared = { path = "../shared" }
+light-poseidon = "0.3.0"
+
